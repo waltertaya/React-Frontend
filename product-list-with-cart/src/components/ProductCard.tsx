@@ -1,3 +1,5 @@
+import AddToCart from "./AddToCart";
+
 interface ProductCardProps {
   image: {
     thumbnail: string;
@@ -17,6 +19,7 @@ const ProductCard = ({ image, name, category, price }: ProductCardProps) => {
       <p className="product-category">{category}</p>
       <h2 className="product-name">{name}</h2>
       <p className="product-price">${price.toFixed(2)}</p>
+      <AddToCart />
     </div>
   );
 };
