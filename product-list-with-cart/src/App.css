@@ -1,4 +1,6 @@
 .main-content {
     display: flex;
     gap: 4rem;
+    width: 80%;
+    margin: 0 auto;
 }

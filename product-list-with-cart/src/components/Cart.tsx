@@ -18,11 +18,14 @@ const Cart = ({ cart }: CartProps) => {
     return (
       <div className="cart">
         <h2>Your Cart (0)</h2>
-        <img
-          src="/assets/images/illustration-empty-cart.svg"
-          alt="Empty cart illustration"
-        />
-        <p>Your added items will appear here</p>
+        <article>
+          <img
+            className="empty-cart-img"
+            src="/src/assets/images/illustration-empty-cart.svg"
+            alt="Empty cart illustration"
+          />
+          <p>Your added items will appear here</p>
+        </article>
       </div>
     );
   }
@@ -39,7 +42,7 @@ const Cart = ({ cart }: CartProps) => {
               {(item.price * item.count).toFixed(2)}
               <button aria-label={`Remove ${item.name} from cart`}>
                 <img
-                  src="/assets/images/icon-remove-item.svg"
+                  src="/src/assets/images/icon-remove-item.svg"
                   alt="Remove item"
                 />
               </button>

@@ -12,11 +12,6 @@
   --rose-900: hsl(14, 65%, 9%);
   --chocolate-50: hsl(30, 54%, 48%);
 }
-body {
-  margin-left: 50px;
-  /* margin-right: 50px; */
-}
-
 .products {
   width: 70%;
 }
@@ -130,4 +125,14 @@ export default Cart; */
   max-width: 300px;
   width: 100%;
   margin-top: 85px;
+}
+.empty-cart-img {
+  max-width: 200px;
+}
+.cart article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
