@@ -35,7 +35,7 @@ This is a simple shopping cart application built with **React + TypeScript + Vit
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/waltertaya/waltertaya/React-Frontend.git
-cd react-shopping-cart
+cd product-list-with-cart
 ```
 
 ### 2️⃣ Install Dependencies
