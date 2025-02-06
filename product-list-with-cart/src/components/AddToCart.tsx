@@ -1,13 +1,25 @@
 import { useState } from "react";
+import { useCart } from "./CartContext";
 
-const AddToCart = () => {
+interface AddToCartProps {
+  name: string;
+  price: number;
+}
+
+const AddToCart = ({ name, price }: AddToCartProps) => {
+  const { addToCart, updateCartItem } = useCart();
   const [clicked, setClicked] = useState(false);
   const [count, setCount] = useState(1);
+
+  const handleAddToCart = () => {
+    setClicked(true);
+    addToCart({ name, price, count });
+  };
 
   return (
     <div className="add-to-cart">
       {!clicked ? (
-        <div onClick={() => setClicked(true)}>
+        <div onClick={handleAddToCart}>
           <img
             src="/src/assets/images/icon-add-to-cart.svg"
             alt="Add to cart"
@@ -19,13 +31,21 @@ const AddToCart = () => {
           <img
             src="/src/assets/images/icon-decrement-quantity.svg"
             alt="Decrement quantity"
-            onClick={() => setCount((prev) => Math.max(1, prev - 1))}
+            onClick={() => {
+              const newCount = Math.max(1, count - 1);
+              setCount(newCount);
+              updateCartItem(name, newCount);
+            }}
           />
           <p>{count}</p>
           <img
             src="/src/assets/images/icon-increment-quantity.svg"
             alt="Increment quantity"
-            onClick={() => setCount((prev) => prev + 1)}
+            onClick={() => {
+              const newCount = count + 1;
+              setCount(newCount);
+              updateCartItem(name, newCount);
+            }}
           />
         </div>
       )}

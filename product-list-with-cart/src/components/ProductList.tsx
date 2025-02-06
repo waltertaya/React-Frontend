@@ -1,20 +1,20 @@
-import ProductCard from "./ProductCard"
+import ProductCard from "./ProductCard";
 
 interface ProductListProps {
-    products: {
-        image: {
-        thumbnail: string;
-        mobile: string;
-        tablet: string;
-        desktop: string;
-        };
-        name: string;
-        category: string;
-        price: number;
-    }[];
-    }
+  products: {
+    image: {
+      thumbnail: string;
+      mobile: string;
+      tablet: string;
+      desktop: string;
+    };
+    name: string;
+    category: string;
+    price: number;
+  }[];
+}
 
-const ProductList = ({products}: ProductListProps) => {
+const ProductList = ({ products }: ProductListProps) => {
   return (
     <div className="product-list">
       {products.map((product) => (
@@ -27,7 +27,7 @@ const ProductList = ({products}: ProductListProps) => {
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default ProductList
+export default ProductList;
