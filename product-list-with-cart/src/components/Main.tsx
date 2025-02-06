@@ -3,7 +3,7 @@ import data from "./data";
 
 function Main() {
   return (
-    <div>
+    <div className="products">
       <h1>Desserts</h1>
         <ProductList products={data}/>
     </div>
