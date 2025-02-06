@@ -3,11 +3,10 @@ import Cart from "./components/Cart";
 import "./App.css";
 
 function App() {
-  const cart = [];
   return (
     <div className="main-content">
       <Main />
-      <Cart cart={cart} />
+      <Cart />
     </div>
   );
 }
