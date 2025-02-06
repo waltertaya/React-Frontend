@@ -98,39 +98,6 @@ const data = [
     category: "Panna Cotta",
     price: 6.5,
   },
-  {
-    image: {
-      thumbnail: "/src/assets/images/image-cake-thumbnail.jpg",
-      mobile: "/src/assets/images/image-cake-mobile.jpg",
-      tablet: "/src/assets/images/image-cake-tablet.jpg",
-      desktop: "/src/assets/images/image-cake-desktop.jpg",
-    },
-    name: "Red Velvet Cake",
-    category: "Cake",
-    price: 4.5,
-  },
-  {
-    image: {
-      thumbnail: "/src/assets/images/image-brownie-thumbnail.jpg",
-      mobile: "/src/assets/images/image-brownie-mobile.jpg",
-      tablet: "/src/assets/images/image-brownie-tablet.jpg",
-      desktop: "/src/assets/images/image-brownie-desktop.jpg",
-    },
-    name: "Salted Caramel Brownie",
-    category: "Brownie",
-    price: 4.5,
-  },
-  {
-    image: {
-      thumbnail: "/src/assets/images/image-panna-cotta-thumbnail.jpg",
-      mobile: "/src/assets/images/image-panna-cotta-mobile.jpg",
-      tablet: "/src/assets/images/image-panna-cotta-tablet.jpg",
-      desktop: "/src/assets/images/image-panna-cotta-desktop.jpg",
-    },
-    name: "Vanilla Panna Cotta",
-    category: "Panna Cotta",
-    price: 6.5,
-  },
 ];
 
 export default data;

@@ -12,34 +12,24 @@
   --rose-900: hsl(14, 65%, 9%);
   --chocolate-50: hsl(30, 54%, 48%);
 }
+body {
+  margin-left: 50px;
+  /* margin-right: 50px; */
+}
+
 /* Product list */
-/* const ProductList = ({products}: ProductListProps) => {
-  return (
-    <div className="product-list">
-      {products.map((product) => (
-        <ProductCard
-          key={product.name}
-          image={product.image}
-          name={product.name}
-          category={product.category}
-          price={product.price}
-        />
-      ))}
-    </div>
-  )
-} */
 
 .product-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.9rem;
+  /* padding: 0rem; */
 }
 
 /* Product Card css */
 .product-card {
   width: 300px;
-  height: 700px;
+  height: 430px;
   border-radius: 10px;
   border-color: black;
 }
