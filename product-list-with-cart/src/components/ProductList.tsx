@@ -16,7 +16,7 @@ interface ProductListProps {
 
 const ProductList = ({products}: ProductListProps) => {
   return (
-    <div>
+    <div className="product-list">
       {products.map((product) => (
         <ProductCard
           key={product.name}
