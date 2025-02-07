@@ -6,6 +6,7 @@ interface ProductCardProps {
     mobile: string;
     tablet: string;
     desktop: string;
+    alt: string;
   };
   name: string;
   category: string;
@@ -15,7 +16,7 @@ interface ProductCardProps {
 const ProductCard = ({ image, name, category, price }: ProductCardProps) => {
   return (
     <div className="product-card">
-      <img src={image.thumbnail} alt={name} />
+      <img src={image.thumbnail} alt={image.alt} />
       <p className="product-category">{category}</p>
       <h2 className="product-name">{name}</h2>
       <p className="product-price">${price.toFixed(2)}</p>
