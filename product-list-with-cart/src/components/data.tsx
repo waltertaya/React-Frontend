@@ -53,7 +53,7 @@ const data = [
       mobile: "/src/assets/images/image-baklava-mobile.jpg",
       tablet: "/src/assets/images/image-baklava-tablet.jpg",
       desktop: "/src/assets/images/image-baklava-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/DsbyZ3p/image-baklava-thumbnail.jpg"
     },
     name: "Pistachio Baklava",
     category: "Baklava",
@@ -65,7 +65,7 @@ const data = [
       mobile: "/src/assets/images/image-meringue-mobile.jpg",
       tablet: "/src/assets/images/image-meringue-tablet.jpg",
       desktop: "/src/assets/images/image-meringue-desktop.jpg",
-      alt: "https://i.ibb.co/DsbyZ3p/image-baklava-thumbnail.jpg"
+      alt: "https://i.ibb.co/TDyF4pbq/image-meringue-thumbnail.jpg"
     },
     name: "Lemon Meringue Pie",
     category: "Pie",
