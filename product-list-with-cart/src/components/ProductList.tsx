@@ -7,6 +7,7 @@ interface ProductListProps {
       mobile: string;
       tablet: string;
       desktop: string;
+      alt: string;
     };
     name: string;
     category: string;
