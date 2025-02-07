@@ -5,7 +5,7 @@ const data = [
       mobile: "/src/assets/images/image-waffle-mobile.jpg",
       tablet: "/src/assets/images/image-waffle-tablet.jpg",
       desktop: "/src/assets/images/image-waffle-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.postimg.cc/y8cB9Sjc/image-waffle-thumbnail.jpg"
     },
     name: "Waffle with Berries",
     category: "Waffle",
