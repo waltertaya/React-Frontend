@@ -17,7 +17,7 @@ const data = [
       mobile: "/src/assets/images/image-creme-brulee-mobile.jpg",
       tablet: "/src/assets/images/image-creme-brulee-tablet.jpg",
       desktop: "/src/assets/images/image-creme-brulee-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/nMqyB4C5/image-creme-brulee-thumbnail.jpg"
     },
     name: "Vanilla Bean Crème Brûlée",
     category: "Crème Brûlée",
@@ -29,7 +29,7 @@ const data = [
       mobile: "/src/assets/images/image-macaron-mobile.jpg",
       tablet: "/src/assets/images/image-macaron-tablet.jpg",
       desktop: "/src/assets/images/image-macaron-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/VYGtDmLg/image-macaron-thumbnail.jpg"
     },
     name: "Macaron Mix of Five",
     category: "Macaron",
@@ -41,7 +41,7 @@ const data = [
       mobile: "/src/assets/images/image-tiramisu-mobile.jpg",
       tablet: "/src/assets/images/image-tiramisu-tablet.jpg",
       desktop: "/src/assets/images/image-tiramisu-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/zWFQdyqY/image-tiramisu-thumbnail.jpg"
     },
     name: "Classic Tiramisu",
     category: "Tiramisu",
@@ -65,7 +65,7 @@ const data = [
       mobile: "/src/assets/images/image-meringue-mobile.jpg",
       tablet: "/src/assets/images/image-meringue-tablet.jpg",
       desktop: "/src/assets/images/image-meringue-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/DsbyZ3p/image-baklava-thumbnail.jpg"
     },
     name: "Lemon Meringue Pie",
     category: "Pie",
@@ -77,7 +77,7 @@ const data = [
       mobile: "/src/assets/images/image-cake-mobile.jpg",
       tablet: "/src/assets/images/image-cake-tablet.jpg",
       desktop: "/src/assets/images/image-cake-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/hxf3fGjZ/image-cake-thumbnail.jpg"
     },
     name: "Red Velvet Cake",
     category: "Cake",
@@ -89,7 +89,7 @@ const data = [
       mobile: "/src/assets/images/image-brownie-mobile.jpg",
       tablet: "/src/assets/images/image-brownie-tablet.jpg",
       desktop: "/src/assets/images/image-brownie-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/LXt7cb7n/image-brownie-thumbnail.jpg"
     },
     name: "Salted Caramel Brownie",
     category: "Brownie",
@@ -101,7 +101,7 @@ const data = [
       mobile: "/src/assets/images/image-panna-cotta-mobile.jpg",
       tablet: "/src/assets/images/image-panna-cotta-tablet.jpg",
       desktop: "/src/assets/images/image-panna-cotta-desktop.jpg",
-      alt: "https://postimg.cc/XrjT6qTY"
+      alt: "https://i.ibb.co/4nLcXJcS/image-panna-cotta-thumbnail.jpg"
     },
     name: "Vanilla Panna Cotta",
     category: "Panna Cotta",
